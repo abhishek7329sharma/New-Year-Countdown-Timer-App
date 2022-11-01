@@ -1,6 +1,6 @@
 # New Year Countdown Timer App (30mins)
 
-![Final Screenshort](./images/Final.png)
+![Final Screenshort](./images/FinalScreenshort.png)
 
 
 ### Time - 30mins (including research and building logic)
