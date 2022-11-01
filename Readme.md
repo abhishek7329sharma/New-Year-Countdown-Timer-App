@@ -16,4 +16,4 @@
 
 > [Github Link](https://github.com/abhishek7329sharma/New-Year-Countdown-Timer-App)
 
-> [Live Link](https://amazing-sopapillas-a00913.netlify.app/)
+> [Live Link](https://stunning-strudel-5534b7.netlify.app/)
