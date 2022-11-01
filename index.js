@@ -4,7 +4,8 @@ const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
 const currentYear = new Date().getFullYear();
 const newYearTime = new Date(`January 1 ${currentYear + 1} 00:00:00`)
-
+const newYear = document.getElementsByClassName("banner-year")[0]
+newYear.innerHTML = `${currentYear + 1}`
 //Update method
 function updateCountdownTimer() {
     const currenTime = new Date();
