@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Sigmar+One&display=swap');
 /* font-family: 'Poppins', sans-serif; */
 
 *{
@@ -8,7 +8,9 @@
     padding: 0;
 }
 .banner{
-    color: rgb(255 255 255);
+    background: linear-gradient(to right, #FABC3C 0%, #FACC6B 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
     font-family: 'Island Moments', cursive;
     font-size: 10rem;
 }
@@ -16,8 +18,8 @@
 body{
     background-image: url(./images/background-g3598fe5ed_1920.jpg);
     background-repeat: no-repeat;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     background-position: center;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -49,12 +51,32 @@ h1{
     align-items: center;
     justify-content: center;
     margin: 15px;
-    color: rgb(255 255 255);
+    background: linear-gradient(to right, #FABC3C 0%, #FACC6B 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .time h2{
     font-weight: bold ;
     font-size: 36px;
     line-height: 1;
-    margin: 0 0 5px
+    margin: 0 0 5px;
+    font-family: 'Sigmar One', cursive;
 }
+
+@media screen and (max-width: 667px) {
+    .banner{
+        color: rgb(253 253 253);
+        font-family: 'Island Moments', cursive;
+        font-size: 5rem;
+    }
+    .countdown {
+        display: flex;
+        transform: scale(1);
+    }
+
+    .time h2 {
+
+        margin: 0 0;
+    }
+  }
